@@ -1,16 +1,52 @@
 body{
-    background:#F5F5DC
+   
+}
+
+.boxmenu{
+    width:100%;
+    position:relative;  
+}
+
+#banner{
+width:100%;
+height: 375px;
 }
 
 h1{
-    text-align:center;
-    font-size: 35px;
-  
+    margin-bottom: 0%;
+    
 }
 
-P{
-    text-align:center
+nav {
+    position: absolute;
+    top: 295px;
+    left: 0;
+    }
+
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+
 }
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:coral;
+}
+
+.principal{
+    background:#F5F5DC;
+    padding:30px;
+    text-align:center;
+}
+
 
 b{
     color:#3CB371
@@ -18,4 +54,77 @@ b{
 
 #confiança{
     font-size: 29px;
+}
+
+
+main{
+    background: #FF8C00;
+    padding:30px;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+h3{
+    text-align:center;
+    padding:30px
+}
+
+h4{
+    padding-top: 50px;
+    text-align:center;
+}
+
+.prestamosservicos li {
+    display:inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right:10%;   
+}
+
+.prestamosservicos li:hover{
+    color:rgb(121, 71, 14);
+}
+
+
+.imgsvc{
+    width: 140%;
+    padding-top: 10PX;
+    border-radius: 15px;
+    
+}
+
+.descricaoservico{
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center
+}
+
+.preço{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 10PX;
+    text-align:center
+}
+
+.formulario {
+    width: 940px;
+    margin: 0 auto;
+  
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
