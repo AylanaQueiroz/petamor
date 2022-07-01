@@ -44,7 +44,7 @@
 			Um lugar onde você pudesse deixar, sob nossos cuidados, o seu bem tão precioso.</p>
 		</div>
 			<main >
-				<h3> O que nós fazemos:</h3>
+				<h3> Nossos serviços:</h3>
 
 					<ul class="prestamosservicos">
 						<li>
@@ -69,18 +69,29 @@
 			</main>
 	
 		<div class="formulario"> 
-		<form>
+			<form>
+		<fieldset>
+			<legend>Cadastre-se para receber nossas novidades:</legend>
 			<label for="nomesobrenome">Nome e sobrenome</label>
-			<input type="text" id="nomesobrenome">
+			<input type="text" id="nomesobrenome" required>
 	
-			<label for="email">Email</label>
-			<input type="text" id="email">
+			<label for="email">E-mail</label>
+			<input type="text" id="email" required placeholder="seuemail@dominio.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$">
 	
 			<label for="telefone">Telefone</label>
-			<input type="text" id="telefone">
+			<input type="text" id="telefone" required placeholder="(XX) (XXXXXXXXX)">
 	
 			<input type="submit" value="Enviar formulário">
+		</fieldset>	
 		</div>
+	
+	</form>
+	<footer> 
+		<p> Copyright 2022</p>
+	
+	</footer>
 	</body>
+
+	
 </html>
 
